@@ -42,7 +42,7 @@ const uploadFile = async (title, type) => {
     console.log(err);
   }
 };
-
+//to be change to 1 hour
 cron.schedule("*/30 * * * * *", async () => {
   //create a file
   const title = formatDate(new Date());
