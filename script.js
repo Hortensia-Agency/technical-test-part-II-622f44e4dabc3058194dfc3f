@@ -8,12 +8,12 @@ const { formatDate } = require("./utils/date");
 const initDrive = () => {
   try {
     const oauth2Client = new google.auth.OAuth2(
-      process.env.CLIENT_ID,
-      process.env.CLIENT_SECRET,
-      process.env.REDIRECT_URL
+      process.env.CLIENT_ID || "",
+      process.env.CLIENT_SECRET | "",
+      process.env.REDIRECT_URL | "https://developers.google.com/oauthplayground"
     );
 
-    oauth2Client.setCredentials({ refresh_token: process.env.REFRESH_TOKEN });
+    oauth2Client.setCredentials({ refresh_token: "blabla" });
     const drive = google.drive({
       version: "v3",
       auth: oauth2Client,
