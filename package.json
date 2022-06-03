@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "googleapis": "^100.0.0",
+    "node-cron": "^3.0.0",
+    "winston": "^3.7.2"
+  },
+  "name": "tech-test1",
+  "description": "This part is about creating a script named `script.<ext>` in any language of your choice (preferably Python or TS with Node).<br />This script will run at the beginning of each hour to..",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hortensia-Agency/technical-test-part-II-622f44e4dabc3058194dfc3f.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hortensia-Agency/technical-test-part-II-622f44e4dabc3058194dfc3f/issues"
+  },
+  "homepage": "https://github.com/Hortensia-Agency/technical-test-part-II-622f44e4dabc3058194dfc3f#readme"
+}
